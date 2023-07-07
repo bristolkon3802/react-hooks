@@ -4,13 +4,14 @@ import UsePreventLeaveView from "./UserPreventLeaveView";
 import UseConfirmView from "./UseConfirmView";
 import UseClickView from "./UseClickView";
 import UseInputView from "./UseInputView";
-/* 
-import UseHoverView from "./UseHoverView";
 import UseNetworkView from "./UseNetworkView";
 import UseScrollView from "./UseScrollView";
-import UseFullscreenView from "./UseFullscreenView";
+import UseFullscreenView from "./UseFullScreenView";
+import UseHoverView from "./UseHoverView";
 import UseNotificationView from "./UseNotificationView";
-import UseAxiosView from "./UseAxiosView"; */
+/* 
+import UseAxiosView from "./UseAxiosView"; 
+*/
 
 const tabContent = [
   {
@@ -33,11 +34,6 @@ const tabContent = [
     tab: "useInput",
     component: <UseInputView />,
   },
-  /* 
-  {
-    tab: "useHover",
-    component: <UseHoverView />,
-  },
   {
     tab: "useNetwork",
     component: <UseNetworkView />,
@@ -51,9 +47,14 @@ const tabContent = [
     component: <UseFullscreenView />,
   },
   {
+    tab: "useHover",
+    component: <UseHoverView />,
+  },
+  {
     tab: "useNotification",
     component: <UseNotificationView />,
   },
+  /* 
   {
     tab: "useAxios",
     component: <UseAxiosView />,
